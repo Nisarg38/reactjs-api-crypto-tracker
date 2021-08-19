@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/static/js/main.4cb310d7.chunk.js",
+    "main.js.map": "/static/js/main.4cb310d7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0f39fa8d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0f39fa8d.js.map",
+    "static/js/2.8425e3d4.chunk.js": "/static/js/2.8425e3d4.chunk.js",
+    "static/js/2.8425e3d4.chunk.js.map": "/static/js/2.8425e3d4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.8425e3d4.chunk.js.LICENSE.txt": "/static/js/2.8425e3d4.chunk.js.LICENSE.txt",
+    "static/media/binance.d8c61230.svg": "/static/media/binance.d8c61230.svg",
+    "static/media/btc.6c2ee359.svg": "/static/media/btc.6c2ee359.svg",
+    "static/media/cardano.d11358fa.svg": "/static/media/cardano.d11358fa.svg",
+    "static/media/dogecoin.7008ccc7.svg": "/static/media/dogecoin.7008ccc7.svg",
+    "static/media/eth.b3ec96d9.svg": "/static/media/eth.b3ec96d9.svg",
+    "static/media/uniswap.122b46d7.svg": "/static/media/uniswap.122b46d7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f39fa8d.js",
+    "static/js/2.8425e3d4.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.4cb310d7.chunk.js"
+  ]
+}
