@@ -2,9 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import btc from '../images/btc.svg';
-import react from '../images/react.svg';
-import Js2 from '../images/js.svg';
-import react2 from '../images/react.svg';
+import bi from '../images/binance.svg';
+import eth from '../images/eth.svg';
+import Ada from '../images/cardano.svg';
+import Doge from '../images/dogecoin.svg';
+import Uni from '../images/uniswap.svg'
+
 
 const Section = styled.section`
 height: 90vh;
@@ -39,29 +42,41 @@ padding: 2rem;
 position: relative;
 
 ${Image}:nth-Child(1){
-    max-width: 150px;
-max-height: 150px;
-    top:30%;
-    left:50%;
+    max-width: 260px;
+    max-height: 260px;
+    top:15%;
+    left:40%;
 }
 
 ${Image}:nth-Child(2){
-    max-width: 150px;
-max-height: 150px;
+    max-width: 230px;
+    max-height: 230px;
     top:40%;
-    left:30%;
+    left:70%;
 }
 ${Image}:nth-Child(3){
-    max-width: 150px;
-max-height: 150px;
-    top:350px;
-    left:50px;
+    max-width: 290px;
+    max-height: 290px;
+    top:32%;
+    left:10%;
 }
 ${Image}:nth-Child(4){
     max-width: 150px;
-max-height: 150px;
-    top:100px;
-    right:75px;
+    max-height: 150px;
+    top:65%;
+    left:40%;
+}
+${Image}:nth-Child(5){
+    max-width: 140px;
+    max-height: 140px;
+    top:27%;
+    Left:0%;
+}
+${Image}:nth-Child(6){
+    max-width: 150px;
+    max-height: 150px;
+    top:55%;
+    left:1%;
 }
 
 `;
@@ -128,14 +143,17 @@ const Hero = () => {
                 animate='visible'
                 transition= {{duration:1}}
                 >Journey to "THE MOON 🚀"</motion.p>
+    
                 <Button
                 whileHover={{scale: 1.05}}
                 whileTap={{scale: 0.95, backgroundColor: '#a70098'}}
                 initial={{opacity:0}}
                 animate={{opacity:1, transition:{duration:1}}}
+               
                 >
                 Github    
                 </Button>
+              
                 </ColumnLeft>
                 
                 <ColumnRight 
@@ -144,15 +162,18 @@ const Hero = () => {
                 >
                     <Image src={btc} alt='planet' 
                     animate={{ rotate: 1080 , transition:{duration:30}}}
-        
                     />
-                    <Image src={react} alt='planet' 
-                      initial={{ '--rotate': '0deg' }}
-                      animate={{ '--rotate': '360deg' }}
-                      transition={{ duration: 2, repeat: Infinity }}
+                    <Image src={bi} alt='planet' 
+                     
                     />
-                    <Image src={Js2} alt='planet' />
-                    <Image src={react2} alt='planet' />
+                    <Image src={eth} alt='planet' />
+                    <Image src={Ada} alt='planet' 
+                     animate={{ rotate: 700 , transition:{duration:30}}}
+                    />
+                    <Image src={Doge} alt='planet' 
+                     animate={{ rotate: -700 , transition:{duration:30}}}
+                    />
+                    <Image src={Uni} alt='planet' />
                 </ColumnRight>
             </Container>
         </Section>

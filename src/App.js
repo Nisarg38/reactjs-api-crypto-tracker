@@ -7,6 +7,8 @@ import Hero from "./Component/Hero"
 
 const BackGround = styled.div`
 background: black;
+margin:0;
+padding:0;
 `;
 
 const Container = styled(motion.div)`
