@@ -1,25 +1,22 @@
 import React,{useState, useEffect} from "react";
 import axios from 'axios';
+import { motion } from "framer-motion";
 import styled from "styled-components";
 import Coin from "./Component/Coin";
+import Hero from "./Component/Hero"
 
-const Header = styled.div`
-display: flex;
-flex-direction : row;
-align-items: center;
+const BackGround = styled.div`
+background: black;
 `;
 
-const Container = styled.div`
+const Container = styled(motion.div)`
 display: flex;
 flex-direction : column;
 margin: auto;
-margin-top: 35px;
-
 box-shadow: 0 3px 6px 0 #555;
 padding: 20px 10px;
 border-radius: 4px;
-width: 70%;
-
+width: 80%;
 background: black;
 `;
 
@@ -75,13 +72,12 @@ function App() {
     coin.name.toLowerCase().includes(search.toLowerCase())
   );
 
-  return<div>
-      <Header>
-        <h2>Logo</h2>
-        <h2>Github</h2>
-        <h2>Repo</h2>
-      </Header>
-      <Container>
+  return<BackGround>
+      <Hero />
+      <Container
+      initial={{opacity:0}}
+      animate={{opacity:1, transition:{duration:0.75}}}
+      >
       <SearchBox >
             <input type="text" placeholder="Search a crypto.....🚀 " onChange={handleChange}/>
             <button type="submit">Search</button>
@@ -101,7 +97,7 @@ function App() {
         );
       })}
       </Container>
-    </div>
+    </BackGround>
   
   
 }
