@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Nisarg38/reactjs-api-crypto-tracker/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/Nisarg38/reactjs-api-crypto-tracker/static/js/main.4cb310d7.chunk.js",
-    "main.js.map": "/Nisarg38/reactjs-api-crypto-tracker/static/js/main.4cb310d7.chunk.js.map",
-    "runtime-main.js": "/Nisarg38/reactjs-api-crypto-tracker/static/js/runtime-main.7b0c6d04.js",
-    "runtime-main.js.map": "/Nisarg38/reactjs-api-crypto-tracker/static/js/runtime-main.7b0c6d04.js.map",
-    "static/js/2.bb2f14ea.chunk.js": "/Nisarg38/reactjs-api-crypto-tracker/static/js/2.bb2f14ea.chunk.js",
-    "static/js/2.bb2f14ea.chunk.js.map": "/Nisarg38/reactjs-api-crypto-tracker/static/js/2.bb2f14ea.chunk.js.map",
-    "index.html": "/Nisarg38/reactjs-api-crypto-tracker/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/Nisarg38/reactjs-api-crypto-tracker/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.bb2f14ea.chunk.js.LICENSE.txt": "/Nisarg38/reactjs-api-crypto-tracker/static/js/2.bb2f14ea.chunk.js.LICENSE.txt",
-    "static/media/binance.d8c61230.svg": "/Nisarg38/reactjs-api-crypto-tracker/static/media/binance.d8c61230.svg",
-    "static/media/btc.6c2ee359.svg": "/Nisarg38/reactjs-api-crypto-tracker/static/media/btc.6c2ee359.svg",
-    "static/media/cardano.d11358fa.svg": "/Nisarg38/reactjs-api-crypto-tracker/static/media/cardano.d11358fa.svg",
-    "static/media/dogecoin.7008ccc7.svg": "/Nisarg38/reactjs-api-crypto-tracker/static/media/dogecoin.7008ccc7.svg",
-    "static/media/eth.b3ec96d9.svg": "/Nisarg38/reactjs-api-crypto-tracker/static/media/eth.b3ec96d9.svg",
-    "static/media/uniswap.122b46d7.svg": "/Nisarg38/reactjs-api-crypto-tracker/static/media/uniswap.122b46d7.svg"
+    "main.css": "/reactjs-api-crypto-tracker/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/reactjs-api-crypto-tracker/static/js/main.4cb310d7.chunk.js",
+    "main.js.map": "/reactjs-api-crypto-tracker/static/js/main.4cb310d7.chunk.js.map",
+    "runtime-main.js": "/reactjs-api-crypto-tracker/static/js/runtime-main.8d22f812.js",
+    "runtime-main.js.map": "/reactjs-api-crypto-tracker/static/js/runtime-main.8d22f812.js.map",
+    "static/js/2.64a513e8.chunk.js": "/reactjs-api-crypto-tracker/static/js/2.64a513e8.chunk.js",
+    "static/js/2.64a513e8.chunk.js.map": "/reactjs-api-crypto-tracker/static/js/2.64a513e8.chunk.js.map",
+    "index.html": "/reactjs-api-crypto-tracker/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/reactjs-api-crypto-tracker/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.64a513e8.chunk.js.LICENSE.txt": "/reactjs-api-crypto-tracker/static/js/2.64a513e8.chunk.js.LICENSE.txt",
+    "static/media/binance.d8c61230.svg": "/reactjs-api-crypto-tracker/static/media/binance.d8c61230.svg",
+    "static/media/btc.6c2ee359.svg": "/reactjs-api-crypto-tracker/static/media/btc.6c2ee359.svg",
+    "static/media/cardano.d11358fa.svg": "/reactjs-api-crypto-tracker/static/media/cardano.d11358fa.svg",
+    "static/media/dogecoin.7008ccc7.svg": "/reactjs-api-crypto-tracker/static/media/dogecoin.7008ccc7.svg",
+    "static/media/eth.b3ec96d9.svg": "/reactjs-api-crypto-tracker/static/media/eth.b3ec96d9.svg",
+    "static/media/uniswap.122b46d7.svg": "/reactjs-api-crypto-tracker/static/media/uniswap.122b46d7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b0c6d04.js",
-    "static/js/2.bb2f14ea.chunk.js",
+    "static/js/runtime-main.8d22f812.js",
+    "static/js/2.64a513e8.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.4cb310d7.chunk.js"
   ]
