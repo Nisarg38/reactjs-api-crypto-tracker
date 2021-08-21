@@ -5,7 +5,8 @@ const CoinContainer = styled.div`
 display: flex;
 flex-direction : column;
 align-items : center;
-
+font-family: Montserrat;
+font-weight: bold;
 `;
 
 const CoinRow = styled.div`
@@ -13,9 +14,8 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-border: black solid 1px;
-border-radius: 2px;
-border-color: white;
+border: #ffcef3 solid 2px;
+border-radius: 5px;
 background-color: white;
 margin: 5px auto
 padding: 10px;

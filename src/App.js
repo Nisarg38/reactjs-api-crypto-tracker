@@ -6,7 +6,7 @@ import Coin from "./Component/Coin";
 import Hero from "./Component/Hero"
 
 const BackGround = styled.div`
-background: black;
+background: #ffcef3;
 margin:0;
 padding:0;
 `;
@@ -19,7 +19,9 @@ box-shadow: 0 3px 6px 0 #555;
 padding: 20px 10px;
 border-radius: 4px;
 width: 80%;
-background: black;
+background: #a1eafb;
+font-family: Montserrat;
+font-weight: bold;
 `;
 
 const SearchBox = styled.form`
@@ -27,10 +29,11 @@ display: flex;
 flex-direction: row;
 border: black solid 1px;
 border-radius: 2px;
-border-color: white;
+border-color: #ffcef3;
 color: black;
 font-size: 18px;
-font-weight: bold;
+font-family: Montserrat;
+font-weight: bolder;
 margin: 20px auto
 & input{
     padding: 10px;

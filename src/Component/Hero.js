@@ -14,7 +14,9 @@ height: 90vh;
 display: flex; 
 justify-content: center;
 align-items: center;
-background: black;
+background:#ffcef3;
+font-family: Montserrat;
+font-weight: bold;
 `;
 
 const Container = styled.section`
@@ -30,6 +32,7 @@ padding: 3rem calc((100vw-1300px)/2);
 
 const Image = styled(motion.img)`
 position: absolute;
+border: black 2px;
 width: 100%
 height: 100%;
 `;
@@ -83,7 +86,7 @@ ${Image}:nth-Child(6){
 
 const ColumnLeft = styled.div`
 display: flex;
-color: #fff;
+color: black;
 flex-direction: column;
 justify-content: center;
 align-items: flex-start;
@@ -98,19 +101,18 @@ p{
     margin: 2rem 0;
     font-size: 3rem;
     line-height: 1.1;
-    color=#fff;
 }
 `;
 
 const Button = styled(motion.button)`
 padding: 1rem 3rem;
 font-size: 1.2rem;
-border: 2px solid #fff;
+border: 2px solid #a1eafb;
 border-radius: 4px;
 outline: none;
 cursor: pointer;
 background: transparent;
-color:#fff;
+color:black;
 font-weight: bolder;
 `;
 
@@ -164,16 +166,20 @@ const Hero = () => {
                     animate={{ rotate: 1080 , transition:{duration:30}}}
                     />
                     <Image src={bi} alt='planet' 
-                     
+                     animate={{ rotate: -720 , transition:{duration:30}}}
                     />
-                    <Image src={eth} alt='planet' />
+                    <Image src={eth} alt='planet' 
+                    animate={{ rotate: 720 , transition:{duration:30}}}
+                    />
                     <Image src={Ada} alt='planet' 
                      animate={{ rotate: 700 , transition:{duration:30}}}
                     />
                     <Image src={Doge} alt='planet' 
                      animate={{ rotate: -700 , transition:{duration:30}}}
                     />
-                    <Image src={Uni} alt='planet' />
+                    <Image src={Uni} alt='planet' 
+                    animate={{ rotate: -720 , transition:{duration:30}}}
+                    />
                 </ColumnRight>
             </Container>
         </Section>
